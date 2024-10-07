@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="API Testing">
+    <test name="Post Methods">
+        <classes>
+            <class name="PostTests"/>
+        </classes>
+    </test>
+
+    <test name="Get Methods">
+        <classes>
+            <class name="GetTests"/>
+        </classes>
+    </test>
+
+    <test name="Put Methods">
+        <classes>
+            <class name="PutTests"/>
+        </classes>
+    </test>
+
+    <test name="Get After Put Methods">
+        <classes>
+            <class name="GetAfterPutTests"/>
+        </classes>
+    </test>
+
+    <test name="delete Methods">
+        <classes>
+            <class name="DeleteTests"/>
+        </classes>
+    </test>
+
+    <test name="Get After Delete Methods">
+        <classes>
+            <class name="GetAfterDeleteTests"/>
+        </classes>
+    </test>
+</suite>
